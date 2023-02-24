@@ -1,0 +1,20 @@
+body{
+    width: auto;
+    height: auto;
+    background-color: aquamarine;
+}
+
+.parrafo1{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parrafo2{
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parrafo3{
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}

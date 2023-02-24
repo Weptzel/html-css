@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient( to right,
+        rgba(31, 0, 157, 0.629),
+        rgba(96, 0, 170, 0.667)
+        ), 
+        url(../FCCsurvey/recursos/wea.jpeg);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+header{
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+form{
+    margin: auto;
+    height: auto;
+    width: 500px;
+    background: fixed;
+    background-color: rgba(17, 1, 79, 0.629);
+    border-radius: 5px;
+}
+
+label{
+    font-size: 1.25em;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+input, select{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 400px;
+}
+
+.survey-form{
+    margin: 0 auto 1.25em auto;
+    padding: 0.25em;
+}
+
+select{
+    height: 30px;
+    text-align: auto;
+}
+
+.radio-btn{
+   text-align: center;
+}
+
+.commentsbut{
+    height: 75px;
+    width: 400px;
+}
+
+.submitbut{
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    text-align: center;
+    border-radius: 5px;
+}
+

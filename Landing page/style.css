@@ -1,0 +1,130 @@
+body{
+    width: auto;
+    height: auto;
+    background-color: rgb(238 238 238);
+}
+
+header{
+   /* background-color: rgba(27, 63, 82, 0.759); */
+    height: 60px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.title{
+    /*background-color: brown;*/
+    height: 60px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo{
+    margin: 30px;
+    width: 10%;
+    left: 0px;
+}
+
+.nav-element{
+    /*background-color: aqua;*/
+    width: 40%;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+}
+
+.nav-link{
+    /*background-color: bisque;*/
+    width: 40%;
+    padding-left: 10px;
+    text-align: center;
+    right: 0px;
+}
+
+form{
+    width: auto;
+    height: 100px;
+    /*background-color: aqua;*/
+}
+
+.email, .subButt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.submit{
+    font-size: large;
+    background:yellow
+}
+
+.grid-template{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 100px 700px;
+    grid-template-rows: repeat(3, 100px);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    grid-template-areas: "imag1 sectext1"
+                         "imag2 sectext2"
+                         "imag3 sectext3";
+}
+
+.img1{
+    grid-area: imag1;
+    /*background-color: aqua;*/
+
+}
+
+.text1{
+    grid-area: sectext1;
+    /*background-color: aqua;*/
+}
+
+.img2{
+    grid-area: imag2;
+    /*background-color: aqua;*/
+}
+
+.text2{
+    grid-area: sectext2;
+    /*background-color: aqua;*/
+}
+
+.img3{
+    grid-area: imag3;
+    /*background-color: aqua;*/
+}
+
+.text3{
+    grid-area: sectext3;
+    /*background-color: aqua;*/
+}
+
+.text-head{
+    font-size: 20px;
+    margin-top: 5px;
+   
+}
+
+.text-bod{
+    margin-top: 0px;
+    
+}
+
+.video-container{
+    margin: 30px auto auto auto;
+    width: 480px;
+    height: 270px;
+    background-color: brown;
+    
+}
+
