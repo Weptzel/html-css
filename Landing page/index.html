@@ -10,27 +10,26 @@
 </head>
 
 <body>
-  <header class="header" id="header">
+  <header class="header" id="header"> 
     <div class="logo">
       <img src="/recursos/logo.png" alt="logo trombones" height="30px" width="300px" id="header-img">
     </div>
-
-    <div class="nav-element">
-      <nav id="nav-bar">
-        <a href="#features" class="nav-link">
-          Features</a>
-        <a href="#video" class="nav-link">
-          How it works</a>
-        <a href="#footer" class="nav-link">
-          Pricing</a>
+    <div class="container">
+      <nav class="navbar">
+        <a href="/" class="nav-branding"></a>
+        <ul class="nav-menu">
+          <li class="nav-link"> <a href="#features">Features</a> </li>
+          <li class="nav-link"> <a href="#trombones">How it Works</a> </li>
+          <li class="nav-link"> <a href="#footer">Footer</a> </li>
+        </ul>
       </nav>
     </div>
   </header>
+
   <div class="title">
     <h2>Handcrafted, home-made masterpices</h2>
   </div>
-
-  <form action="" id="form">
+  <form action="https://www.freecodecamp.com/email-submit" id="form">
     <div class="email">
       <input type="email" name="email" id="email" placeholder="Enter your email address"
         pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required />
@@ -60,17 +59,75 @@
           height="100px"></article>
       <article class="text3">
         <p class="text-head"><strong>Quality Assurance</strong></p>
-        <p class="text-bod">For every purchase you make, we will ensure there are no damages or faults and we will check
+        <p class="text-bod">For every purchase you make, we will ensure there are no damages or faults and we will
+          check
           and test the pitch of your instrument.</p>
       </article>
       </article>
     </section>
   </div>
 
+
   <div class="video-container">
     <video id="video" src="http://www.example.com/waterfall-video.mp4" width="480" height="270" type="video/mp4" preload
       controls></video>
   </div>
+
+  <section id="trombones" class="prices-container">
+    <div class="prices-container">
+      <div class="box a">
+        <p class="item1"> <strong>TENOR TROMBONE</strong> </p>
+        <p class="item2"><strong>600$</strong> <br> <br>
+          Lorem ipsum. <br>
+          Lorem ipsum. <br>
+          Lorem ipsum dolor. <br>
+          Lorem ipsum.</p>
+        <form class="item3" action="" id="buttSelect">
+          <div class="select">
+            <input type="button" value="SELECT" name="selectBut" id="selectBut" class="selectBut">
+          </div>
+        </form>
+      </div>
+
+
+      <div class="box b">
+        <p class="item1"> <strong>BASS TROMBON</strong></p>
+        <p class="item2"><strong>900$</strong> <br> <br>
+          Lorem ipsum. <br>
+          Lorem ipsum. <br>
+          Lorem ipsum dolor. <br>
+          Lorem ipsum.</p>
+        <form class="item3" action="" id="buttSelect">
+          <div class="select">
+            <input type="button" value="SELECT" name="selectBut" id="selectBut" class="selectBut">
+          </div>
+        </form>
+      </div>
+
+
+
+      <div class="box c">
+        <p class="item1"> <strong>VALVE TROMBONE</strong> </p>
+        <p class="item2"><strong>1200$</strong> <br> <br>
+          Lorem ipsum. <br>
+          Lorem ipsum. <br>
+          Lorem ipsum dolor. <br>
+          Lorem ipsum.</p>
+        <form class="item3" action="" id="buttSelect">
+          <div class="select">
+            <input type="button" value="SELECT" name="selectBut" id="selectBut" class="selectBut">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer" class="footer">
+    <div class="foot"></div>
+        <p>Copyright 2016, Original Trombones</p>
+    </div>
+  </section>
+
 </body>
 
 </html>
